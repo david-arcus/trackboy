@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-touch-fullscreen" content="yes" />
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="format-detection" content="telephone=no" />
+<meta name="viewport" content="minimal-ui, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+<meta name="author" content="David Arcus">
+<meta name="description" content="Trackboy is a text-based (ASCII) car game. You should check it out. Even your parents can play it!">
+
+<meta property="og:image" content="http://www.trackboy.pw/img/trackboy.png" />
+<meta property="og:url" content="http://www.trackboy.pw" />
+<meta property="og:title" content="Trackboy" />
+<meta property="og:description" content="Trackboy is a text-based (ASCII) car game. You should check it out. Even your parents can play it!" />
+<meta property="og:type" content="website"/>
+
+<link href="img/apple-touch-icon-57x57.png" sizes="57x57" rel="apple-touch-icon" />
+<link href="img/apple-touch-icon-72x72.png" sizes="72x72" rel="apple-touch-icon" />
+<link href="img/apple-touch-icon-114x114.png" sizes="114x114" rel="apple-touch-icon" />
+<link href="img/apple-touch-icon-144x144.png" sizes="144x144" rel="apple-touch-icon" />
+
+<title>Trackboy</title>
+
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-49034703-1', 'trackboy.pw');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+<body>
+	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+	<div id="social">
+		<div id="fb">
+			<div class="fb-like" data-href="http://www.trackboy.pw" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+		</div>
+		<a id="portfolio" href="http://www.davidarcus.co.nz">by dave</a>
+	</div>
+
+	<div id="container">
+		<div id="stage"><pre id="bg"></pre></div>
+	</div>
+	
+	<div id="logo">
+<pre>
+ _                  _    
+| |_ _ __ __ _  ___| | __
+| __| '__/ _` |/ __| |/ /
+| |_| | | (_| | (__|   < 
+ \__|_|_ \__,_|\___|_|\_\
+      | |__   ___  _   _ 
+      | '_ \ / _ \| | | |
+      | |_) | (_) | |_| |
+      |_.__/ \___/ \__, |
+                   |___/ 
+                         
+</pre>
+		<span id="interaction-phrase"></span> to start
+	</div>
+	
+	<div class="controls" id="left"><span>&lt;</span></div>
+	<div class="controls" id="right"><span>&gt;</span></div>
+	
+	<script src="js/modernizr.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+		
+</body>
+</html>
