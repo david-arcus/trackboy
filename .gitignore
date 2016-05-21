@@ -15,6 +15,7 @@
 *.tar
 *.zip
 
+node_modules/
 
 *.log
 *.sql

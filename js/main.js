@@ -32,9 +32,12 @@ var $right = $('#right');
 function determineMobileProperties() {
 	// start with device type detection - this will determine how me measure the screen and what language to use for interactions
 	
+	widthMeasurement = verge.viewportW();
+        heightMeasurement = verge.viewportH();
+
 	if (Modernizr.touch) {   
-		widthMeasurement = window.outerWidth;
-		heightMeasurement = screen.height;
+		widthMeasurement = $(document).width();
+		heightMeasurement = $(document).height();
 		interactionPhrase = 'tap';
 	} else {   
 		widthMeasurement = $(window).width();
